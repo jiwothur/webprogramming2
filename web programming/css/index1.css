@@ -1,0 +1,90 @@
+h1{
+ font-family: Courier New;
+ text-align: center;
+ background: #1437ed9c;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-weight: bold;
+ color: #FFFFFF;
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+body{
+  padding: 1%;
+  font-size: 16px;
+  font-family: "Times New Roman";
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  margin: 12px 0;
+}
+
+article{
+color:blue;
+display:inline-block;
+}
+.mypaper{
+  background-color: #004bcc1f;
+    width: 300;
+    border: solid 0;
+    padding: 20px;
+    margin: 0;
+}
+.table{
+  background-color: #004bcc1f;
+    width: 300;
+    border: solid 0;
+    padding: 20px;
+    margin: 0;
+    display :block;
+}
+footer{
+  background-color: #004bcc1f;
+    width: 300;
+    border: solid 0;
+    padding: 20px;
+    margin: 0;
+}
+.head{
+  font-weight: bold;
+  color:#000000;
+  background: #1437ed9c;
+  padding:4px;
+  text-decoration: none;
+}
+nav a{
+  display: inline;
+  font-weight: bold;
+  color: #FFFFFF;
+
+  width: 200px;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.card-container {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  position: absolute;
+}
+.card .sideback {
+  background: #eaeaed;
+  color: #2753e5;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}

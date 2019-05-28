@@ -1,0 +1,33 @@
+h1{
+ font-family: Courier New;
+ text-align: center;
+ background: #1437ed9c;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-weight: bold;
+ color: #FFFFFF;
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+body{
+  padding: 1%;
+  font-size: 16px;
+  font-family: "Times New Roman";
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  margin: 12px 0;
+}
+
+.mymovies{
+  background-color: #004bcc1f;
+    width: 300;
+    border: solid 0;
+    padding: 20px;
+    margin: 0;
+}
+
+nav a{
+  text-decoration: none;
+  display: block;
+  background: #1437ed9c;
+  color: #FFFFFF;
+}
